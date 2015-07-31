@@ -21,11 +21,8 @@
 
 var typeOfPet = prompt("What type of pet do you have?");
 
-if (typeOfPet == "dog") {
-  console.log("A " + typeOfPet + " is a normal pet");
-} else if (typeOfPet == "cat") {
-  console.log("A " + typeOfPet + " is a normal pet");
-} else if (typeOfPet == "parrot") {
+
+if (typeOfPet == "cat" || typeOfPet == "dog" || typeOfPet == "parrot") {
   console.log("A " + typeOfPet + " is a normal pet");
 } else if (typeOfPet == "liger") {
   console.log("WOW! You have a liger.  You are so cool!");
