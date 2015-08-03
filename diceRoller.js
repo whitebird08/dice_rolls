@@ -1,6 +1,6 @@
 var diceRoller = function(numOfRolls, sideOfDie) {
   var newArray = [];
-  if (sideOfDie == NaN) {
+  if (isNaN(sideOfDie)) {
     var sideOfDie = 6;
   }
   for (var i = 0; i < numOfRolls; i++) {
